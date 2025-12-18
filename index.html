@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="https://photos.fife.usercontent.google.com/pw/AP1GczMx6AMq3fTQ3TJ3mlvcu-Bwcx0yweZKTDSYCIViG0WeqgrzW5dvQVwf=w448-h641-s-no-gm?authuser=0"
+    />
+  </head>
+
+  <body>
+    
+    <article data-testid="test-profile-card" class="card">
+      
+      
+      <header>
+        <h1 data-testid="test-user-name">
+          OBIKODI UCHENNA EMMANUEL
+        </h1>
+
+        <figure>
+          <img
+            src="https://photos.fife.usercontent.google.com/pw/AP1GczMx6AMq3fTQ3TJ3mlvcu-Bwcx0yweZKTDSYCIViG0WeqgrzW5dvQVwf=w448-h641-s-no-gm?authuser=0"
+            alt="Profile photo of Obikodi Uchenna Emmanuel"
+            data-testid="test-user-avatar"
+          />
+        </figure>
+      </header>
+
+    
+      <section>
+        <p data-testid="test-user-bio">
+          I am learning how to build clean, accessible web interfaces with HTML,
+          CSS, React and JavaScript. Currently learning at
+          <strong>Borderless-Dev</strong>.
+        </p>
+      </section>
+
+      
+      <section>
+        <p data-testid="test-user-time"></p>
+      </section>
+
+
+      <nav data-testid="test-user-social-links">
+        <a
+          href="https://github.com/your-dovadallas661-ux"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-github"
+        >
+          💻 GitHub
+        </a>
+
+        <a
+          href="https://twitter.com/@uchenna129971"
+          target="_blank"
+          rel="noopener noreferrer"
+          data-testid="test-user-social-twitter"
+        >
+          🐦 X / Twitter
+        </a>
+      </nav>
+
+      
+      <section>
+        <ul data-testid="test-user-hobbies">
+          <li>Studying</li>
+          <li>Exploring Technology</li>
+          <li>Coding</li>
+        </ul>
+      </section>
+
+
+      <section>
+        <ul data-testid="test-user-dislikes">
+          <li>Being broke</li>
+          <li>Not being appreciated when I do good</li>
+        </ul>
+      </section>
+
+    </article>
+
+    <script>
+      const timeElement = document.querySelector(
+        '[data-testid="test-user-time"]'
+      );
+      timeElement.textContent = Date.now();
+    </script>
+  </body>
+</html> 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Uchenna Emmanuel – Digital Business Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://photos.fife.usercontent.google.com/pw/AP1GczNjwvu8h4ZRB2V9rfmhzwMn6z5gWWf30PDfpqT-t9xMUy0bKHLOc7P4=w923-h913-s-no-gm?authuser=0' />
+  </head>
+  <body>
+    <main class="page">
+      <article class="card" role="region" aria-label="Digital business card">
+        <img
+          class="avatar"
+          src="https://avatars.githubusercontent.com/u/228327337?s=400&u=2b1430deed72a8161292e21e5a79f0acdbb93617&v=4"
+          alt="Profile photo"
+          width="120"
+          height="120"
+        />
+
+        <h1 class="name">UCHENNA EMMANUEL</h1>
+        <p class="role">web development student• Port harcourt, NG</p>
+        <p class="bio">
+          I am learning how to build clean, accessible web interfaces with HTML, CSS and a dash of JavaScript. Currently learning at <strong>Borderless‑Dev</strong>.
+        </p>
+
+        <ul class="links" aria-label="Contact and social links">
+          <li>
+            <a class="btn" href="mailto:dovadallas661@gmail.com" target="_blank">
+              <span class="icon" aria-hidden="true">✉️</span>
+              Email
+            </a>
+          </li>
+          <li>
+            <a class="btn" href="tel:+2348164396733">
+              <span class="icon" aria-hidden="true">📞</span>
+              Call
+            </a>
+          </li>
+          <li>
+            <a class="btn" href="https://your-portfolio.example" target="_blank">
+              <span class="icon" aria-hidden="true">🌐</span>
+              Website
+            </a>
+          </li>
+          <li>
+            <a class="btn" href="https://github.com/your-dovadallas661-ux" target="_blank">
+              <span class="icon" aria-hidden="true">💻</span>
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a class="btn" href="https://www.linkedin.com/in/uchenna-emmanuel-81a854332" target="_blank">
+              <span class="icon" aria-hidden="true">🔗</span>
+              LinkedIn
+            </a>
+          </li> 
+          <li>
+            <a class="btn" href="https://twitter.com/@uchenna129971" target="_blank">
+              <span class="icon" aria-hidden="true">🐦</span>
+              X / Twitter
+            </a>
+          </li>
+        </ul>
+
+        <footer class="footer">
+          <small>
+            © <span id="year"></span> Uchenna Emmanuel · Built with HTML & CSS
+          </small>
+        </footer>
+      </article>
+    </main>
+
+    <script>
+      // Set current year automatically
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
